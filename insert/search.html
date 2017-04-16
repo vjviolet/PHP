@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search books</title>
+</head>
+<body>
+<h1>catalog search</h1>
+<form action="result.php" method="POST">
+    Choose search type: <br />
+    <select name="searchtype">
+        <option value="author">Author</option>
+        <option value="title">Title</option>
+        <option value="isbn">ISBN</option>
+    </select>
+    <br />
+    Enter Search Term: <br>
+    <input type="text" name="searchterm" size="20">
+    <br>
+    <input type="submit" value="search">
+</form>
+</body>
+</html>
